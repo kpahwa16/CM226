@@ -1,4 +1,4 @@
-# CM226
+# CM226 : Genomic Prediction of disease risk using heritability estimated, Polygenic Risk Score Estimation and Classification for case/control phenotype data
 
 **Abstract**
 Multiple methods have been developed to calculate heritability using single nucleotide polymorphisms (SNPs). We divide this project into two parts: in the first part, based on genotype-phenotype data for continuous phenotypes, we calculate heritability of simulated traits using linear regression, LASSO regression, ridge regression, and polygenic risk scores. Subsequently, we use simulated case-control data to directly asses disease risk using classification techniques: random forests, logistic regression and XGBoost. We perform a comparative analysis on these approaches to understand the which performs better. Phenotypic predictions in human datasets have been modeled using regression models with a few single nucleotide polymorphisms (SNPs) having strong association identified by GWAS.
