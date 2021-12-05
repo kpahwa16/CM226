@@ -2,7 +2,7 @@
 
 Multiple methods have been developed to calculate heritability using single nucleotide polymorphisms (SNPs). We divide this project into two parts: in the first part, based on genotype-phenotype data for continuous phenotypes, we calculate heritability of simulated traits using linear regression, LASSO regression, ridge regression, and polygenic risk scores. Subsequently, we use simulated case-control data to directly asses disease risk using classification techniques: random forests, logistic regression and XGBoost. We perform a comparative analysis on these approaches to understand the which performs better. Phenotypic predictions in human datasets have been modeled using regression models with a few single nucleotide polymorphisms (SNPs) having strong association identified by GWAS.
 
-We utilize genotype data from European individuals from the 1000 genomes project1. The data is available at https:// drive.google.com/file/d/1IqRqXFbpQBxinmCcBOQVk_7tUCJbzp5B/view?usp=drive_web. The fol- lowing is a description of the data used.
+We utilize genotype data from European individuals from the 1000 genomes project. The data is available at https:// drive.google.com/file/d/1IqRqXFbpQBxinmCcBOQVk_7tUCJbzp5B/view?usp=drive_web. The following is a description of the data used.
 
 Genotype Data
 The chromosome 22 imputed data was filtered for MAF > 0.05, HWE p-value > 0.000005, only keeping variation that had a PASS filter and for only containging SNPs. The bim file contains information about the SNPs in your data, the fam file about the individuals and the bed file the plink-readable genotype matrix.
